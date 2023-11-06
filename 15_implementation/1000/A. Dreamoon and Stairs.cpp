@@ -40,7 +40,21 @@ void solve() {
 	// }
 	// cout<<-1<<endl;
 
-	
+	int ans = -1;
+	if(m > n) {
+		cout<<ans<<endl;
+		return;
+	}
+	if(n&1) {
+		ans = n/2+1;
+	}
+	else {
+		ans = n/2;
+	}
+	while(ans%m != 0) {
+		ans++;
+	}
+	cout<<ans<<endl;	
 }
 
 signed main() {
