@@ -27,7 +27,7 @@ void solve() {
              x+2x+4x+⋯+2^k−1x = n // given
              
             => x(1+2+4+.....2^k-1) = n
-            (using GP formula an->if r=1, else a(r^n)-1/r-1)
+            (using GP formula if r=1, else a(r^n)-1/r-1)
             => x(1*(2^k)-1)/2-1 = n
             => (x(2^k)-1) = n
             => x = n/(2^k)-1

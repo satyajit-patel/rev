@@ -12,7 +12,7 @@ int my_pow(int base, int power, int mod) {
 			ans = ((ans%mod) * (base%mod)) % mod;
 		}
 
-		base = ((base%mod) * (base%mod)) % mod;
+		base = ((base%mod) * (base%mod)) % mod; // base tu badhade...dj bale..
 		power /= 2;
 	}
 	return ans;

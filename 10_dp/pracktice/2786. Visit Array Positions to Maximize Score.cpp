@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/visit-array-positions-to-maximize-score/description/
 class Solution {
 public:
     vector<int> A;
