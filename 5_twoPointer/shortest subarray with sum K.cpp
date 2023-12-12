@@ -1,3 +1,5 @@
+
+// https://practice.geeksforgeeks.org/contest/gfg-weekly-coding-contest-130/problems
 class Solution {
 public:
     int subarraySumK(vector<int> &a, int n, int k) {
